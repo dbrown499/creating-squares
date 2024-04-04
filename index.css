@@ -1,6 +1,7 @@
 html {
     height: auto;
-    text-align: center;
+
+    /* text-align: center; */
 }
 section {
     border: 5px solid black;
@@ -39,6 +40,9 @@ div {
     &#__six {
         height: 310px;
         border: 20px solid rgb(43, 0, 128);
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -47,4 +51,6 @@ button{
     padding: 10px;
     width: 150px;
     color: white;
+    /* position: absolute; */
+    
 }

@@ -1,0 +1,50 @@
+html {
+    height: auto;
+    text-align: center;
+}
+section {
+    border: 5px solid black;
+    height: 550px;
+}
+
+div {
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+    
+
+    &#__one {
+        height: 510px;
+        border: 20px solid red;
+    }
+
+    &#__two {
+        height: 470px;
+        border: 20px solid blue;
+    }
+
+    &#__three {
+        height: 430px;
+        border: 20px solid rgb(253, 173, 0);
+    }
+
+    &#__four {
+        height: 390px;
+        border: 20px solid rgb(128, 0, 113);
+    }
+    &#__five {
+        height: 350px;
+        border: 20px solid rgb(0, 242, 255);
+    }
+    &#__six {
+        height: 310px;
+        border: 20px solid rgb(43, 0, 128);
+    }
+}
+
+button{
+    border-radius: 50px;
+    padding: 10px;
+    width: 150px;
+    color: white;
+}

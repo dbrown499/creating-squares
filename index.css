@@ -1,56 +1,46 @@
 html {
     height: auto;
-
-    /* text-align: center; */
 }
 section {
-    border: 5px solid black;
-    height: 550px;
+    /* border: 50px solid black; */
+    height: 100vh;
+    align-items: center;
+    
 }
 
 div {
-    border: 2px solid black;
+    
+    border: 20px solid black;
     padding: 0px;
     margin: 0px;
+    height: 100%; 
+    width: 100%;
+    box-sizing: border-box;
+    /* position: ; */
     
 
     &#__one {
-        height: 510px;
-        border: 20px solid red;
-    }
-
-    &#__two {
-        height: 470px;
-        border: 20px solid blue;
-    }
-
-    &#__three {
-        height: 430px;
-        border: 20px solid rgb(253, 173, 0);
-    }
-
-    &#__four {
-        height: 390px;
-        border: 20px solid rgb(128, 0, 113);
-    }
-    &#__five {
-        height: 350px;
-        border: 20px solid rgb(0, 242, 255);
-    }
-    &#__six {
-        height: 310px;
-        border: 20px solid rgb(43, 0, 128);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        /* height: 510px; */
+        border: 20px solid black;
     }
 }
 
 button{
     border-radius: 50px;
+    border: none;
     padding: 10px;
-    width: 150px;
+    width: 160px;
     color: white;
-    /* position: absolute; */
-    
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    font-size: larger;
+    background-image: linear-gradient(to right, hsl(260deg 23% 9%), hsl(237deg 25% 19%), hsl(236deg 24% 32%));
+}
+
+button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    padding: 7px;
+    margin: 5px;
 }

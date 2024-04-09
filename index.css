@@ -2,10 +2,9 @@ html {
     height: auto;
 }
 section {
-    /* border: 50px solid black; */
     height: 100vh;
     align-items: center;
-    
+
 }
 
 div {
@@ -16,11 +15,9 @@ div {
     height: 100%; 
     width: 100%;
     box-sizing: border-box;
-    /* position: ; */
     
 
     &#__one {
-        /* height: 510px; */
         border: 20px solid black;
     }
 }
